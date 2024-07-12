@@ -1,3 +1,10 @@
+# Escreva um programa que solicita ao usuário 3 valores inteiros. Em seguida o pro-
+# grama deverá perguntar ao usuário se deseja ver os valores impressos em ordem
+
+# crescente ou decrescente. Após a escolha, o programa deverá exibir os valores or-
+# denados conforme indicação do usuário.
+
+
 var_1 = int(input("Digite o primeiro num: "))
 var_2 = int(input("Digite o segundo num: "))
 var_3 = int(input("Digite o terceiro num: "))
