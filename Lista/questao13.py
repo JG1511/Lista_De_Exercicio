@@ -14,3 +14,5 @@ for i in range(11):
         var_mult +=1
 
     print(f"A tabuada: {var_str} = {var_total}")
+
+    
