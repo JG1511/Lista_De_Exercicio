@@ -11,4 +11,4 @@ elif valor2 < valor:
      valor_sub = valor - valor2
      print("A diferença entre o maior valor e o menor: ",  valor_sub)
     
-   
+    

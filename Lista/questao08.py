@@ -5,6 +5,5 @@ for i in range(var_num):
     valor  =  int(input("Digite outros valores: "))
 
     if valor % 2 == 0:
-        valor = 1
-        var_soma += valor
+        var_soma += 1
 print("Existem essa quantidade de valores pares: ",var_soma)
