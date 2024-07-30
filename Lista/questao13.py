@@ -3,5 +3,5 @@ resultado = 0
 
 for i in range(1, 10 +1, 1):
     resultado = tabuada * i
-    print(tabuada, "x", i, "=", resultado)
+    print(tabuada, "x", i, "=", resultado, end = " , ")
     
