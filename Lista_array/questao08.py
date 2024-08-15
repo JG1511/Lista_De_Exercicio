@@ -4,10 +4,20 @@
 # essa string em uma lista de números inteiros e apresentar o resultado da soma dos
 # valores das posições ímpares dessa lista. 
 
-lista = input("Digite os valores com espaço: ")
-numero = []
+lista_inicial = input("Digite os valores com espeço: ")
+lista_final = lista_inicial.split()
 
-for i in range(0,len(lista),2):
-    numero += [int(i) for _ in lista]
+lista_numero = [int(numero) for numero in lista_final]
+num_str = " "
+soma_num = 0
 
-print(numero)
+for valor in lista_numero:
+    if valor % 2 == 1:
+        soma_num += valor
+        if valor == 0:
+            num_str += str(valor)
+        else:
+            num_str += f" + {valor} "
+        
+print(f"Soma:{num_str} = {soma_num}") 
+
