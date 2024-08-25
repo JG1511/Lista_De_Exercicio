@@ -7,7 +7,7 @@ lista_notas = []
 for i in range(quantidade_alunos):
     nome = input(f"Digite o nome do aluno {i + 1}: ")
     lista_alunos.append(nome)
-    for j in range(3):
+    for j in range(3):  
         nota = float(input(f"Digite a nota {j+1} do aluno {i + 1}: "))
         lista_notas.append(nota)
 
